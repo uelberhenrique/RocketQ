@@ -12,6 +12,7 @@
     
         <link rel="stylesheet" href="./assets/style/global.css">
         <link rel="stylesheet" href="./assets/style/room.css">
+        <link rel="stylesheet" href="./assets/style/modal.css">
       
         <!-- FONTS  -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -90,13 +91,91 @@
                             </div>
 
                         </div>
+
+                        <div class="question-wrapper">
+
+                            <div class="question-content">
+
+                                <div class="user">
+                                    <img src="./assets/img/Avatar.svg" alt="Avatar">
+                                </div>
+
+                                <div class="question">
+                                    <p>O que é TypeScript?</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="actions">
+                                <a href="#">
+                                    <img src="./assets/img/check.svg" alt="Marcar como lido">
+                                    Marcar como lida
+                                </a>
+
+                                <a href="#">
+                                    <img src="./assets/img/trash.svg" alt="Excluir pergunta">
+                                    Excluir
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="question-wrapper read">
+
+                            <div class="question-content">
+
+                                <div class="user">
+                                    <img src="./assets/img/Avatar.svg" alt="Avatar">
+                                </div>
+
+                                <div class="question">
+                                    <p>O que é JavaScript?</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="actions">
+                                <a href="#">
+                                    <img src="./assets/img/check.svg" alt="Marcar como lido">
+                                    Marcar como lida
+                                </a>
+
+                                <a href="#">
+                                    <img src="./assets/img/trash.svg" alt="Excluir pergunta">
+                                    Excluir
+                                </a>
+
+                            </div>
+
+                        </div>
                     </div>
+
 
                 </section>
 
             </main>
         </div>
 
+        <!-- MODAL -->
+        <div class="modal-wrapper">
+            <div class="modal">
+                <h2>Excluir Pergunta</h2>
+                <p>Tem certeza que você deseja excluir esssa pergunta?</p>
+
+                <form>
+                    <label for-id="password" class="sr-only">Digite sua senha</label>
+                    <input type="password" name="password" id="password" placeholder="Digite sua senha">
+
+                    <div class="buttons">
+                        <div class="button grey">Cancelar</div>
+                        <button class="red">Sim, excluir</button>
+                    </div>
+                </form>
+            </div>
+        </div>
 
     </body>
 </html>
