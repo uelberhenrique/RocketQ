@@ -7,7 +7,7 @@
 }
 
 html {
-    font-size: 62.5%; /* 10px*/
+    
     --black: #0D114F;
     --white: #FAFAFA;
     --red: #E83F5B;
@@ -27,9 +27,12 @@ html {
     --hover-blue: #5699FF;
     --hover-red: #EA4B65;
     --hover-grey: #8794A7;
+    
+    font-size: 62.5%; /* 10px*/
 }
 
 body {
+    display: flex;
     height: 100vh;
     background: var(--background);
 }
@@ -43,7 +46,6 @@ body, button, input, textarea {
 .content {
     width: 100%;
     margin: 0 auto;
-
 }
 
 .sr-only {
@@ -83,7 +85,7 @@ button:hover, .button:hover {
 
 button > img 
 .button > img {
-    margin-right: 1rem ;
+    margin-right: 1rem  ;
     width: 2rem;
 }
 
@@ -96,9 +98,9 @@ button.outlined,
 
 .content header {
     width: 80%;
+    margin: 3.5rem auto;
 }
 
 .content header img {
     width: 16.7rem;
-    margin: 3.5rem auto;
-}
+   } 
