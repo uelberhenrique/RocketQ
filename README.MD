@@ -10,7 +10,7 @@ Technologies used:
 * CSS3 - FlexBox - Grid
 * NodeJS
 * Express
-* ESL
+* EJS
 
 What I learned from this project:
 
