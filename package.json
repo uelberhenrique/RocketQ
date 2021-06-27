@@ -1,0 +1,30 @@
+{
+  "name": "RocketQ",
+  "version": "1.0.0",
+  "description": "Projeto Desenvolvido para gerenciar perguntas anônimas direcionadas ao dono da página ou live. Programa Desenvolvido por Uelber Henrique",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "init-db": "node src/db/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uelberhenrique/RocketQ.git"
+  },
+  "keywords": [],
+  "author": "Uelber Henrique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uelberhenrique/RocketQ/issues"
+  },
+  "homepage": "https://github.com/uelberhenrique/RocketQ#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
