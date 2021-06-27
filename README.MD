@@ -20,12 +20,8 @@ What I learned from this project:
 * I understood a lot about routes
 * And I used esl to run html on nodeJS
 
-And I used esl to run html on nodeJS
-
 I thank God for all the learning.
 
 Thanks to https://rocketseat.com.br/
 
 Project developed in #NLW
-
-Aprendi a usar o rem como medida, agora não preciso de media queries para font-sizes em diferentes medididas de tela
